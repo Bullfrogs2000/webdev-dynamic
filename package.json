@@ -8,7 +8,7 @@
     },
     "contributors": ["Charlotte Soeurng"
     ],
-    "repository": {https://github.com/fivethirtyeight/data/tree/master/alcohol-consumption},
+    "repository": {"https://github.com/fivethirtyeight/data/tree/master/alcohol-consumption"},
     "dependencies": {
         "express": "^5.1.0",
         "sqlite3": "^5.1.7"
