@@ -3,10 +3,10 @@
     "description": "Dynamic Server",
     "version": "1.0.0",
     "author": {
-        "name": "",
-        "email": ""
+        "name": "Kino Smead",
+        "email": "jerem.smead722@gmail.com"
     },
-    "contributors": [
+    "contributors": [Charlotte Soeurng
     ],
     "repository": {},
     "dependencies": {
