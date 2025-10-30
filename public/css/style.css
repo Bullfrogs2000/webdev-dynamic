@@ -1,0 +1,38 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #181919;
+    color: #a8a5a0;
+    text-align: left;
+
+    padding: 2rem 5vw;
+
+}
+h1 {
+    margin-bottom: 5vw;
+    text-align: center;
+    font-size: clamp(2rem, 10vw, 5rem);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.description {
+    font-size: clamp(0.9rem, 2.25vw, 2rem);
+    text-align: center;
+    padding: 1.5vh 1vw;
+    background-color: #552321;
+    border-radius: 5rem;
+    color: #a8a5a0;
+    margin: 0 10%;
+}
+.click {
+    margin: 2.5vw 10%;
+    font-size: clamp(0.8rem, 2vw, 1.5rem);
+}
+.list {
+    font-size: clamp(0.9rem, 2.2vw, 1.65rem);
+    text-align: center;
+}
+.list a{
+    color: #a8a5a0;
+}
+.list a:hover {
+    color: #b74c48;
+}

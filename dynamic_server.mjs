@@ -11,9 +11,22 @@ const port = 8080;
 const root = path.join(__dirname, 'public');
 const template = path.join(__dirname, 'templates');
 
+const db = new sqlite3.Database('./alcohol.sqlite3', sqlite3.OPEN_READONLY, (err) => {
+    if (err) {
+        console.log("Error connecting to database");
+    } else {
+        console.log("Successfully connected to database");
+    }
+});
+
 let app = express();
 app.use(express.static(root));
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(template, 'index.html'));
+});
 
 app.listen(port, () => {
     console.log('Now listening on port ' + port);
 });
+
