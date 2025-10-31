@@ -4,6 +4,7 @@ import * as url from 'node:url';
 
 import { default as express } from 'express';
 import { default as sqlite3 } from 'sqlite3';
+import {default as chartjs} from 'chart.js/auto';
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
