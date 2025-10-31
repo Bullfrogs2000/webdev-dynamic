@@ -7,18 +7,15 @@
         "email": "jerem.smead722@gmail.com"
     },
     "contributors": [
-<<<<<<< HEAD
         "Charlotte Soeurng",
         "Kaden Stewart"
-=======
-        "Charlotte Soeurng"
->>>>>>> 607a886c1de4c31c81e454749f85b65407b8b1a4
     ],
     "repository": {
         "type": "git",
         "url": "https://github.com/fivethirtyeight/data/tree/master/alcohol-consumption"
     },
     "dependencies": {
+        "chart.js": "^4.5.1",
         "express": "^5.1.0",
         "sqlite3": "^5.1.7"
     }
