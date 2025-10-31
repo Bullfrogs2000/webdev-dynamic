@@ -1,6 +1,6 @@
 body {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #181919;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0f0f0f;
     color: #a8a5a0;
     text-align: left;
 
@@ -8,31 +8,32 @@ body {
 
 }
 h1 {
-    margin-bottom: 5vw;
-    text-align: center;
-    font-size: clamp(2rem, 10vw, 5rem);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 15vw;
+    color: #8c3e3e;
+    font-size: clamp(1rem, 4vw, 2.5rem);
 }
 .description {
     font-size: clamp(0.9rem, 2.25vw, 2rem);
-    text-align: center;
+    text-align: right;
     padding: 1.5vh 1vw;
-    background-color: #552321;
     border-radius: 5rem;
-    color: #a8a5a0;
-    margin: 0 10%;
+    margin: 0;
 }
 .click {
-    margin: 2.5vw 10%;
+    margin: 2.5vw 0;
     font-size: clamp(0.8rem, 2vw, 1.5rem);
 }
 .list {
     font-size: clamp(0.9rem, 2.2vw, 1.65rem);
-    text-align: center;
 }
 .list a{
     color: #a8a5a0;
 }
 .list a:hover {
-    color: #b74c48;
+    color: #8c3e3e;
+}
+.table table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
